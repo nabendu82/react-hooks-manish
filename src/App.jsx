@@ -1,21 +1,28 @@
 import './App.css'
-// import ListPost from './components/ListPost'
-import PostForm from './components/PostForm'
-// import MouseContainer from './components/MouseContainer'
-// import ClassCounter from './components/ClassCounter'
-// import HookCounter from './components/HookCounter'
-// import HookObj from './components/HookObj'
+import DocTitleOne from './components/DocTitleOne'
+import DocTitleTwo from './components/DocTitleTwo'
+import RefsDemo from './components/RefsDemo'
+// import GrandParent from './components/GrandParent'
+// import React from 'react'
+// import ParentCOmp from './components/ParentCOmp'
+
+// export const UserContext = React.createContext();
+// export const ChannelContext = React.createContext();
 
 function App() {
-
   return (
     <>
-      {/* <ClassCounter /> */}
-      {/* <HookCounter /> */}
-      {/* <HookObj /> */}
-      {/* <MouseContainer /> */}
-      <PostForm />
+        <DocTitleOne />
+        <DocTitleTwo />
     </>
+    // <User
+    // Context.Provider value="Nabendu">
+    //   <ChannelContext.Provider value="TWD">
+    //     <GrandParent /> 
+    //   </ChannelContext.Provider>
+    // </User>
+    // <ParentCOmp />
+
   )
 }
 
