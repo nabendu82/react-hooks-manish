@@ -1,7 +1,5 @@
 import './App.css'
-import DocTitleOne from './components/DocTitleOne'
-import DocTitleTwo from './components/DocTitleTwo'
-import RefsDemo from './components/RefsDemo'
+import FormikForm from './components/FormikForm'
 // import GrandParent from './components/GrandParent'
 // import React from 'react'
 // import ParentCOmp from './components/ParentCOmp'
@@ -12,8 +10,9 @@ import RefsDemo from './components/RefsDemo'
 function App() {
   return (
     <>
-        <DocTitleOne />
-        <DocTitleTwo />
+        {/* <DocTitleOne />
+        <DocTitleTwo /> */}
+        <FormikForm />
     </>
     // <User
     // Context.Provider value="Nabendu">
